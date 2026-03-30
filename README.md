@@ -19,11 +19,11 @@ bash setup.sh
 ├── setup.sh                        # Symlinks everything into ~/.claude/
 ├── bin/
 │   └── gencr                       # Legacy script (kept for compatibility)
-├── commands/
-│   └── code-review.md              # /project:code-review <devname>
 └── dotfiles/
     ├── CODE_REVIEW.md              # Code review checklist (the source of truth)
-    └── code_review_query.md        # Supporting prompt for code reviews
+    ├── code_review_query.md        # Supporting prompt for code reviews
+    └── commands/
+        └── code-review.md          # /project:code-review <devname>
 ```
 
 ## Commands
