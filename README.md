@@ -49,10 +49,5 @@ gencrnew swalker
 
 ## Shell Functions
 
-Add to `~/.zshrc`:
+See dotfiles repo, run setup-work.sh
 
-```bash
-gencrnew() {
-  claude "Read ~/.claude/CODE_REVIEW.md and perform a code review for developer $1. Get the branch with \`git branch --show-current\`, check for a prior review at ~/tmp/code-reviews/<branch>/$1-review.md, review changed files with \`git diff main...<branch> --name-only\`, and save the report to ~/tmp/code-reviews/<branch>/$1-review.md"
-}
-```
